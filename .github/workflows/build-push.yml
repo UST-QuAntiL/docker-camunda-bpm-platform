@@ -1,6 +1,6 @@
 name: Build and push image
 on:
-    - workflow_dispatch
+    workflow_dispatch:
     pull_request:
         types:
             - closed
